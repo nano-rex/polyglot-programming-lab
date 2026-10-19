@@ -1,0 +1,20 @@
+window.courseTracks = {
+  python:['Python','Expressive automation and web services','python'],
+  javascript:['JavaScript','Browser and server applications','javascript'],
+  go:['Go','Explicit errors and small deployable services','go'],
+  rust:['Rust','Ownership and reliable systems code','rust'],
+  c:['C','Memory, compilation, and foundations','c'],
+  ruby:['Ruby on Rails','Convention over configuration for full-stack products','ruby'],
+  haskell:['Haskell','Pure functions, types, and dependable data pipelines','haskell'],
+  lua:['Lua','Embeddable scripting for tools, games, and automation','lua'],
+  sql:['SQL','Data modeling, querying, and set-based thinking','sql'],
+  dotnet:['.NET','C# services, web APIs, and production tooling','dotnet'],
+  powershell:['PowerShell','Cross-platform operations and infrastructure automation','powershell'],
+  kotlin:['Kotlin','Modern JVM, Android, and multiplatform applications','kotlin'],
+  wasm:['WebAssembly','Portable compiled modules for the browser and beyond','wasm'],
+  nasm:['NASM','x86-64 assembly, calling conventions, and systems foundations','nasm'],
+  masm:['MASM','Windows-oriented assembly and native debugging workflows','masm'],
+  typescript:['TypeScript','Typed JavaScript for maintainable application teams','typescript'],
+  swift:['Swift','Safe native applications for Apple platforms and services','swift'],
+  css:['CSS','Accessible interfaces, layout systems, and responsive design','css']
+};

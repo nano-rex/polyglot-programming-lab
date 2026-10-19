@@ -27,6 +27,8 @@ Each track follows the same 10-chapter map so concepts can be compared rather th
 
 ## Run it
 
+The site is intentionally split into maintainable files: `course/chapters.js` contains the syllabus, `course/tracks.js` contains language metadata, `course/labs.js` contains practice output, and `app.js` contains UI behavior. Language reference code lives under `examples/<language>/`.
+
 This is a static site. Open `index.html` directly, or serve the directory with any static file server:
 
 ```sh
