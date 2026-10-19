@@ -26,7 +26,9 @@ const tracks = {
   wasm:['WebAssembly','Portable compiled modules for the browser and beyond','wasm'],
   nasm:['NASM','x86-64 assembly, calling conventions, and systems foundations','nasm'],
   masm:['MASM','Windows-oriented assembly and native debugging workflows','masm'],
-  typescript:['TypeScript','Typed JavaScript for maintainable application teams','typescript']
+  typescript:['TypeScript','Typed JavaScript for maintainable application teams','typescript'],
+  swift:['Swift','Safe native applications for Apple platforms and services','swift'],
+  css:['CSS','Accessible interfaces, layout systems, and responsive design','css']
 };
 let activeTrack='python'; let activeChapter=0; const progress=JSON.parse(localStorage.getItem('polyglot-progress')||'{}');
 const $=s=>document.querySelector(s);
