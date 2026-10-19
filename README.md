@@ -16,6 +16,10 @@ Polyglot Programming Lab is a practical programming-languages course. It starts 
 - **.NET** - C# services, web APIs, and production tooling.
 - **PowerShell** - cross-platform operations and infrastructure automation.
 - **Kotlin** - modern JVM, Android, and multiplatform applications.
+- **WebAssembly** - portable compiled modules for the browser and beyond.
+- **NASM** - x86-64 assembly, calling conventions, and systems foundations.
+- **MASM** - Windows-oriented assembly and native debugging workflows.
+- **TypeScript** - typed JavaScript for maintainable application teams.
 
 Each track follows the same 10-chapter map so concepts can be compared rather than memorized in isolation. The original SQLite CRUD examples are preserved in `examples/` as reference implementations.
 

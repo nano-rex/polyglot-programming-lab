@@ -4,4 +4,4 @@ The original CRUD implementations are preserved here as comparison material. The
 
 Existing reference implementations: C, C++, C#, Dart, Go, Haskell, Java, JavaScript, Kotlin, Lua, PowerShell, Python, Rust, and shell.
 
-The Rails, SQL, and .NET tracks are taught through the course labs and capstone exercises; they are intentionally not represented by a misleading one-file CRUD script.
+The Rails, SQL, .NET, WebAssembly, NASM, MASM, and TypeScript tracks are taught through the course labs and capstone exercises; they are intentionally not represented by a misleading one-file CRUD script.
