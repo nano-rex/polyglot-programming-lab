@@ -1,7 +1,15 @@
-# Reference examples
+# CRUD study pack
 
-The original CRUD implementations are preserved here as comparison material. The course tracks use the same reading-list domain, but each chapter asks you to improve the design rather than copy a menu-driven demo.
+This directory is the starting point for the course. The original SQLite CRUD implementations remain available so you can run, read, compare, and improve them rather than treating them as throwaway history.
 
-Existing reference implementations: C, C++, C#, Dart, Go, Haskell, Java, JavaScript, Kotlin, Lua, PowerShell, Python, Rust, and shell.
+## Suggested sequence
 
-The Rails, SQL, .NET, WebAssembly, NASM, MASM, and TypeScript tracks are taught through the course labs and capstone exercises; they are intentionally not represented by a misleading one-file CRUD script.
+1. Pick a language and run its `crud.*` implementation against `data.db`.
+2. Trace the four operations: create the table, insert a record, read records, update a record, and delete a record.
+3. Compare the same operation across languages: input handling, resource cleanup, errors, and parameterized SQL.
+4. Apply the main course chapters: add validation, tests, migrations, a repository boundary, and an HTTP API.
+5. Use the result as the persistence foundation for the reading-list capstone.
+
+## Reference implementations
+
+C, C++, C#, Dart, Go, Haskell, Java, JavaScript, Kotlin, Lua, PowerShell, Python, Rust, and shell are included here. The Rails, SQL, .NET, WebAssembly, NASM, MASM, and TypeScript tracks use the same CRUD study sequence through their course labs and capstone exercises.

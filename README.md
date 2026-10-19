@@ -21,7 +21,7 @@ Polyglot Programming Lab is a practical programming-languages course. It starts 
 - **MASM** - Windows-oriented assembly and native debugging workflows.
 - **TypeScript** - typed JavaScript for maintainable application teams.
 
-Each track follows the same 10-chapter map so concepts can be compared rather than memorized in isolation. The original SQLite CRUD examples are preserved in `examples/` as reference implementations.
+Each track follows the same 10-chapter map so concepts can be compared rather than memorized in isolation. The original SQLite CRUD examples are preserved in `examples/` as the starting point for the persistence chapter and capstone.
 
 ## Run it
 
@@ -42,7 +42,7 @@ Then visit <http://localhost:8000>. No backend, build step, or account is requir
 5. Errors, testing, and debugging
 6. Abstraction: objects, structs, and interfaces
 7. Async work and concurrency
-8. SQLite persistence and migrations
+8. SQLite persistence and migrations, beginning with the original CRUD study pack
 9. HTTP APIs and input validation
 10. Packaging, deployment, and a production capstone
 
