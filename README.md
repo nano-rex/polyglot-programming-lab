@@ -9,6 +9,13 @@ Polyglot Programming Lab is a practical programming-languages course. It starts 
 - **Go** - explicit errors, concurrency, and small deployable services.
 - **Rust** - ownership, reliable systems code, and safe performance.
 - **C** - memory, compilation, and the foundations beneath higher-level languages.
+- **Ruby on Rails** - convention-driven full-stack product development.
+- **Haskell** - pure functions, strong types, and dependable data transformations.
+- **Lua** - embeddable scripting for tools, games, and automation.
+- **SQL** - data modeling and set-based problem solving as a first-class language.
+- **.NET** - C# services, web APIs, and production tooling.
+- **PowerShell** - cross-platform operations and infrastructure automation.
+- **Kotlin** - modern JVM, Android, and multiplatform applications.
 
 Each track follows the same 10-chapter map so concepts can be compared rather than memorized in isolation. The original SQLite CRUD examples are preserved in `examples/` as reference implementations.
 
