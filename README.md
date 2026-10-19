@@ -1,57 +1,38 @@
-# Sqlite Create-Retrieve-Update-Delete
+# Polyglot Programming Lab
 
-### Diagram
-```mermaid
-classDiagram
-class Main
-Main <-- Insert
-Main <-- Read
-Main <-- Update
-Main <-- Delete
-Main: +int id
-class Insert{
-  +int id
-  +String name
-  +int age
-  +char gender
-  +int salary
-}
-class Read{
-  +print()
-}
-class Update{
-  +String name
-  +int age
-  +char gender
-  +int salary
-}
-class Delete{
-  -int id
-}
+Polyglot Programming Lab is a practical programming-languages course. It starts with the same small product idea - a personal reading list - and uses it to teach programming fundamentals, data modeling, persistence, APIs, testing, concurrency, and delivery across multiple languages.
+
+## Tracks
+
+- **Python** - the fastest route from idea to a tested automation or web service.
+- **JavaScript** - browser and server applications with async data flows.
+- **Go** - explicit errors, concurrency, and small deployable services.
+- **Rust** - ownership, reliable systems code, and safe performance.
+- **C** - memory, compilation, and the foundations beneath higher-level languages.
+
+Each track follows the same 10-chapter map so concepts can be compared rather than memorized in isolation. The original SQLite CRUD examples are preserved in `examples/` as reference implementations.
+
+## Run it
+
+This is a static site. Open `index.html` directly, or serve the directory with any static file server:
+
+```sh
+python3 -m http.server 8000
 ```
 
-### How to run?
+Then visit <http://localhost:8000>. No backend, build step, or account is required. Progress is stored in the browser with `localStorage`.
 
-#### Python
-```
-pip install --user sqlite
-python3 crud.py
-```
+## Course map
 
-#### Java
-```
-java -classpath sqlite-jdbc-*.jar crud.java
-```
+1. Values, syntax, and expressions
+2. Control flow and functions
+3. Collections and data modeling
+4. Modules, files, and the command line
+5. Errors, testing, and debugging
+6. Abstraction: objects, structs, and interfaces
+7. Async work and concurrency
+8. SQLite persistence and migrations
+9. HTTP APIs and input validation
+10. Packaging, deployment, and a production capstone
 
-#### C++
-```
-g++ crud.cpp -o out.crud.cpp
-./out.crud.cpp
-```
-
-#### C
-```
-gcc crud.c -o out.crud.c
-./out.crud.cpp
-```
-
+Licensed under GPL-3.0.
