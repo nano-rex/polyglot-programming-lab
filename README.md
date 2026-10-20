@@ -25,6 +25,15 @@ Polyglot Programming Lab is a practical programming-languages course. It starts 
 
 Each track follows the same 10-chapter map so concepts can be compared rather than memorized in isolation. The original SQLite CRUD examples are preserved in `examples/<language>/` as the starting point for the persistence chapter and capstone.
 
+### Additional tracks
+
+- **Erlang**, **R**, **Objective-C**, and **Lisp**
+- **Scala**, **MATLAB**, **PHP**, and **Perl**
+- **Visual Basic**, **Pascal**, **Fortran**, and **Standard ML**
+- **F#**, **Prolog**, **Datalog**, **ABSYS**, **ALF**, and **COBOL**
+
+Each requested language has a dedicated directory under `examples/`, ready for its practical CRUD and capstone exercises.
+
 ## Run it
 
 The site is intentionally split into maintainable files: `course/chapters.js` contains the syllabus, `course/tracks.js` contains language metadata, `course/labs.js` contains practice output, and `app.js` contains UI behavior. Language reference code lives under `examples/<language>/`.

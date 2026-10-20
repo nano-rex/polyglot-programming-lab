@@ -13,3 +13,5 @@ This directory is the starting point for the course. The original SQLite CRUD im
 ## Reference implementations
 
 Each track has its own directory. C, C++, C#, Dart, Go, Haskell, Java, JavaScript, Kotlin, Lua, PowerShell, Python, Rust, and shell include legacy CRUD implementations; Swift and CSS have dedicated course directories for their native and interface work. The Rails, SQL, .NET, WebAssembly, NASM, MASM, TypeScript, Swift, and CSS tracks use the same CRUD study sequence through their course labs and capstone exercises.
+
+The new language directories are ready for their own practical implementations; add each language-specific CRUD program and tests there as the track develops.
