@@ -22,17 +22,27 @@ Polyglot Programming Lab is a practical programming-languages course. It starts 
 - **TypeScript** - typed JavaScript for maintainable application teams.
 - **Swift** - safe native applications for Apple platforms and services.
 - **CSS** - accessible interfaces, layout systems, and responsive design.
+- **Erlang** - fault-tolerant concurrent services and message passing.
+- **R** - statistical computing, visualization, and reproducible analysis.
+- **Objective-C** - dynamic native programming and Cocoa application foundations.
+- **Lisp** - symbolic computation, macros, and language-oriented design.
+- **Scala** - functional and object-oriented JVM data systems.
+- **MATLAB** - numerical computing, modeling, and engineering experiments.
+- **PHP** - server-rendered applications and practical web services.
+- **Perl** - text processing, automation, and systems scripting.
+- **Visual Basic** - readable desktop, office, and business automation.
+- **Pascal** - structured programming and strongly typed foundations.
+- **Fortran** - numerical science, simulation, and high-performance computing.
+- **Standard ML** - modules, algebraic data types, and functional programming.
+- **F#** - functional-first .NET applications and domain modeling.
+- **Prolog** - logic programming, rules, and constraint-based search.
+- **Datalog** - declarative rules, recursive queries, and knowledge graphs.
+- **ABSYS** - abstract systems modeling and formal problem solving.
+- **ALF** - logic-functional programming and declarative computation.
+- **COBOL** - business data processing and dependable batch systems.
 
 Each track follows the same 10-chapter map so concepts can be compared rather than memorized in isolation. The original SQLite CRUD examples are preserved in `examples/<language>/` as the starting point for the persistence chapter and capstone.
 
-### Additional tracks
-
-- **Erlang**, **R**, **Objective-C**, and **Lisp**
-- **Scala**, **MATLAB**, **PHP**, and **Perl**
-- **Visual Basic**, **Pascal**, **Fortran**, and **Standard ML**
-- **F#**, **Prolog**, **Datalog**, **ABSYS**, **ALF**, and **COBOL**
-
-Each requested language has a dedicated directory under `examples/`, ready for its practical CRUD and capstone exercises.
 
 ## Run it
 
