@@ -56,6 +56,35 @@ python3 -m http.server 8000
 
 Then visit <http://localhost:8000>. No backend, build step, or account is required. Progress is stored in the browser with `localStorage`.
 
+## Example
+
+Run one of the original CRUD programs against the shared sample database, from
+`examples/` (Python needs nothing extra; other tracks need their own toolchain, e.g.
+`go run go/crud.go`):
+
+```console
+$ cd examples
+$ python3 python/crud.py
+1). Insert Records:
+2). Read Records:
+3). Update Records:
+4). Delete Records:
+5). Exit
+Enter Your Choice: 2
+1). Read Single Record
+2). Read All Records
+Enter Your Choice: 2
+<===Available Records===>
+Name is : adam
+Age is : 3
+Salary is : 30000
+...
+```
+
+Then open the course site, pick the **Python** track, and work through the chapters that
+turn this script into a validated, tested service with migrations and an HTTP API.
+Each `examples/<language>/README.md` gives the run command for that language.
+
 ## Course map
 
 1. Values, syntax, and expressions
